@@ -5,12 +5,6 @@ import * as AWS from "aws-sdk";
 import * as fs from "fs";
 import * as awsCdkLib from "aws-cdk-lib";
 
-const chromium = require("chromium");
-const { execFile } = require("child_process");
-
-execFile(chromium.path, ["https://google.com"], (err: any) => {
-  console.log("Hello Google!");
-});
 const AWSXRay = require("aws-xray-sdk");
 const AWS_xray = AWSXRay.captureAWS(require("aws-sdk"));
 
