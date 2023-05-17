@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "cst": "node cst.mjs",
     "dev": "sst dev",
     "build": "sst build",
     "deploy": "sst deploy",
@@ -23,7 +24,12 @@
     "packages/*"
   ],
   "dependencies": {
+    "@types/node": "^20.1.4",
     "aws-xray-sdk": "^3.5.0",
-    "three": "^0.152.2"
+    "chromium": "^3.0.3",
+    "grpc": "^1.24.11",
+    "prisma": "^4.14.0",
+    "three": "^0.152.2",
+    "ts-node": "^10.9.1"
   }
 }
