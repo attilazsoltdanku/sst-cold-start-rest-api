@@ -1,6 +1,4 @@
 import fs from "fs";
-import { get } from "http";
-import { type } from "os";
 import path from "path";
 
 const folderPath = path.join(".sst", "artifacts");
