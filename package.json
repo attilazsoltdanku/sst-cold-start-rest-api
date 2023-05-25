@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "cst": "node cst.mjs",
     "dev": "sst dev",
     "build": "sst build",
     "deploy": "sst deploy",
